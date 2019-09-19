@@ -1,27 +1,21 @@
 {
   "name": "blind-ethereal-accidents",
-  "version": "0.0.1",
-  "description": "Gambling at Quasars Palace",
-  "productName": "Another Quasar Salad",
-  "cordovaId": "org.cordova.quasar.app",
-  "author": "Colin Brayton <gringolalia@gmail.com>",
+  "version": "1.0.0",
+  "description": "Sighted Materialist Dialectics",
+  "author": "o gran bretonio",
   "private": true,
   "scripts": {
-    "test": "echo \"No test specified\" && exit 0"
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
   },
   "dependencies": {
-    "@quasar/extras": "^1.0.0",
-    "quasar": "^1.0.0"
+    "cross-env": "^5.2.0",
+    "nuxt": "^2.0.0",
+    "element-ui": "^2.4.6"
   },
   "devDependencies": {
-    "@quasar/app": "^1.0.0"
-  },
-  "engines": {
-    "node": ">= 8.9.0",
-    "npm": ">= 5.6.0",
-    "yarn": ">= 1.6.0"
-  },
-  "browserslist": [
-    "last 1 version, not dead, ie >= 11"
-  ]
+    "nodemon": "^1.11.0"
+  }
 }

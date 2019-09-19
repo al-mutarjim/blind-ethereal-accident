@@ -1,22 +1,22 @@
-# Another Quasar Salad (blind-ethereal-accidents)
+# blind-ethereal-accidents
 
-Gambling at Quasars Palace
+> Sighted Materialist Dialectics
 
-## Install the dependencies
-```bash
-yarn
+## Build Setup
+
+``` bash
+# install dependencies
+$ yarn install
+
+# serve with hot reload at localhost:3000
+$ yarn run dev
+
+# build for production and launch server
+$ yarn run build
+$ yarn start
+
+# generate static project
+$ yarn run generate
 ```
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
-```bash
-quasar dev
-```
-
-
-### Build the app for production
-```bash
-quasar build
-```
-
-### Customize the configuration
-See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
+For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
