@@ -1,0 +1,14 @@
+image: node:latest
+ stage: deploy
+ script:
+  - npm install --progress=false
+  - npm run build
+  - mkdir .public
+  - cp -r dist/* .public
+  - mv .public public
+ artifacts:
+  expire_in: 1 week
+  paths:
+   - public
+ only:
+  - master
